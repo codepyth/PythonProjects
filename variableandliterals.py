@@ -239,11 +239,24 @@
 
 # date and time module
 
-from datetime import datetime, date
-import time
+# from datetime import datetime, date
+# import time
 
-print(date.today())
+# print(date.today())
 
-print(time.strftime("%H:%M:%S"))
+# print(time.strftime("%H:%M:%S"))
 
-print(datetime.today().strftime("%Y-%m-%d %H:%M:%S"))
+# print(datetime.today().strftime("%Y-%m-%d %H:%M:%S"))
+
+
+
+# A = pi r square
+
+
+r = 1.1
+pi = 3.801
+
+
+a = pi(r**2)
+
+print(a)
