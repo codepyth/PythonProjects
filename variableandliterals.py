@@ -253,10 +253,23 @@
 # A = pi r square
 
 
-r = 1.1
-pi = 3.801
+# r = 1.1
+# pi = 3.141592653589793
 
 
-a = pi(r**2)
+# a = pi*r**2
+# print(a)
 
-print(a)
+
+# from math import pi
+
+# print(pi)
+
+# # radius = float(input("Enter radius: "))
+# radius = 1.1
+
+# area = pi*r**2
+
+# print(area)
+
+
