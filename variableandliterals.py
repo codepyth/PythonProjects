@@ -120,7 +120,7 @@
 
 # print("This is always executed.")
 
-languages = ['Swift', 'Python', 'Go']
+# languages = ['Swift', 'Python', 'Go']
 
 # # access elements of the list one by one
 
@@ -161,43 +161,43 @@ languages = ['Swift', 'Python', 'Go']
 
 
 # Explaintations of shallow copy:
-import copy
+# import copy
 
-# Original list with a nested list
-original_list = [1, 2, [3, 4]]
+# # Original list with a nested list
+# original_list = [1, 2, [3, 4]]
 
-# Create a shallow copy of the original list
-shallow_copied_list = copy.copy(original_list)
+# # Create a shallow copy of the original list
+# shallow_copied_list = copy.copy(original_list)
 
-# Modify a top-level element in the shallow copy
-shallow_copied_list[0] = 'New'
-print("Original list:", original_list)   # Output: [1, 2, [3, 4]]
-print("Shallow copied list:", shallow_copied_list)  # Output: ['New', 2, [3, 4]]
+# # Modify a top-level element in the shallow copy
+# shallow_copied_list[0] = 'New'
+# print("Original list:", original_list)   # Output: [1, 2, [3, 4]]
+# print("Shallow copied list:", shallow_copied_list)  # Output: ['New', 2, [3, 4]]
 
-# Modify a nested element in the shallow copy
-shallow_copied_list[2][0] = 'Modified'
-print("Original list:", original_list)   # Output: [1, 2, ['Modified', 4]]
-print("Shallow copied list:", shallow_copied_list)  # Output: ['New', 2, ['Modified', 4]]
+# # Modify a nested element in the shallow copy
+# shallow_copied_list[2][0] = 'Modified'
+# print("Original list:", original_list)   # Output: [1, 2, ['Modified', 4]]
+# print("Shallow copied list:", shallow_copied_list)  # Output: ['New', 2, ['Modified', 4]]
 
 
 
-import copy
+# import copy
 
-# Original list with a nested list
-original_list = [1, 2, [3, 4]]
+# # Original list with a nested list
+# original_list = [1, 2, [3, 4]]
 
-# Create a deep copy of the original list
-deep_copied_list = copy.deepcopy(original_list)
+# # Create a deep copy of the original list
+# deep_copied_list = copy.deepcopy(original_list)
 
-# Modify a top-level element in the deep copy
-deep_copied_list[0] = 'New'
-print("Original list:", original_list)   # Output: [1, 2, [3, 4]]
-print("Deep copied list:", deep_copied_list)  # Output: ['New', 2, [3, 4]]
+# # Modify a top-level element in the deep copy
+# deep_copied_list[0] = 'New'
+# print("Original list:", original_list)   # Output: [1, 2, [3, 4]]
+# print("Deep copied list:", deep_copied_list)  # Output: ['New', 2, [3, 4]]
 
-# Modify a nested element in the deep copy
-deep_copied_list[2][0] = 'Modified'
-print("Original list:", original_list)   # Output: [1, 2, [3, 4]]
-print("Deep copied list:", deep_copied_list)  # Output: ['New', 2, ['Modified', 4]]
+# # Modify a nested element in the deep copy
+# deep_copied_list[2][0] = 'Modified'
+# print("Original list:", original_list)   # Output: [1, 2, [3, 4]]
+# print("Deep copied list:", deep_copied_list)  # Output: ['New', 2, ['Modified', 4]]
 
 # Inshort:
 
@@ -205,3 +205,45 @@ print("Deep copied list:", deep_copied_list)  # Output: ['New', 2, ['Modified', 
 # it creates a new object but any changes in nested elements of new copy from shallow list, will also effect the original list.
 # Deep copy:
 # it creates a totally new object and any changes to the new copy will not effect the main or original list.
+
+
+# mylist = [1, 3, 4, 5, 7]
+
+# newlist = [x/2 for x in mylist]
+
+# print(newlist)
+
+# t = (1, "hello", 3.14)
+# print(t[1][1])  # prints "hello"
+# for element in t:
+#     print(element)  # prints each element in the tuple
+
+# t = (1, "hello", 3.14)
+# print(t[1][4])
+
+
+
+# print("Twinkle, twinkle, little star,")
+# print("\t How I wonder what you are! ")
+# print("\t \t Up above the world so high,  ") 		
+# print("\t \t \t Like a diamond in the sky.") 
+# print("Twinkle, twinkle, little star,") 
+# print("\t How I wonder what you are")
+
+# import sys
+
+# print(sys)
+# print('python version: ', sys.version)
+# print('system version: ', sys.version_info)
+
+
+# date and time module
+
+from datetime import datetime, date
+import time
+
+print(date.today())
+
+print(time.strftime("%H:%M:%S"))
+
+print(datetime.today().strftime("%Y-%m-%d %H:%M:%S"))
