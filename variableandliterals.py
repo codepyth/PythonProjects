@@ -273,3 +273,118 @@
 # print(area)
 
 
+# fname = input("Enter first name: ")
+# lname = input("Enter last name: ")
+# fname = 'Waseem'
+# lname = 'Nawaz'
+# fulname = fname +' '+ lname
+
+# # print(fulname)
+
+# word = ''
+# result = ''
+
+
+# for char in fulname:
+#     if char != ' ':
+#         word += char
+#     else:
+#         for i in range(len(word)-1, -1, -1):
+#             result += word[i]
+#         result += ' '
+#         word = ''
+
+# for i in range(len(word)-1, -1, -1):
+#     result += word[i]
+
+
+# print(result)
+
+
+# mynumber = input("Enter Numbers to generate a list and tuple: ")
+
+# mylist = []
+# mytuple = ()
+# print(len(mynumber))
+# while mynumber:
+#     if mynumber == ",":
+#         pass
+#     else:
+#         mylist += mynumber
+#         mytuple += mynumber
+
+
+# print(mylist)
+# print(mytuple)
+
+
+# from wifi_qrcode_generator import wifi_qrcode
+
+# qr_code = wifi_qrcode('Khuda Ka Khouf Kro', hidden=False, authentication_type='WPA', password='ijazdon1')
+
+# qr_code_image = qr_code.make_image()
+
+# qr_code_image.save('my_qr_code.jpg')
+
+
+# mylist = input("Enter numbers: ")
+# newlist = mylist.split(',')
+
+# newtuple = tuple(newlist)
+
+
+# print("List: ", newlist)
+# print("Tuple: ", newtuple)
+
+
+# var = ["code.java", "serew.ve", "wjerlje.jsd", "pisc.jpeg"]
+
+# extenlist = []
+
+# for data in var:
+#     newvar = data.split('.')
+#     extenlist.append(newvar[-1])
+
+# print(extenlist)
+
+
+# color_list = ["Red","Green","White" ,"Black"]
+
+# last_color = len(color_list)
+
+# print(color_list[0]+ " "+ color_list[-1])
+
+
+# Define a tuple called 'exam_st_date' containing the exam start date in the format (day, month, year)
+# exam_st_date = (11, 12, 2014)
+
+# result =''
+
+# for i in exam_st_date:
+#     result += str(i)+'/'
+
+# result = result.rstrip('/')
+# print(result)
+
+
+# from datetime import date
+
+
+# date1 = date(2014, 7, 11)
+# date2 = date(2014, 7, 2)
+
+
+# delta = date1 - date2
+
+# print(delta.days)
+
+# from math import pi
+
+
+# rad = 6
+
+# data = pi*rad**3
+
+# result = data*(4/3)
+
+# print(result)
