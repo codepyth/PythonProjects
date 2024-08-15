@@ -343,6 +343,7 @@
 
 # for data in var:
 #     newvar = data.split('.')
+#     print(newvar)
 #     extenlist.append(newvar[-1])
 
 # print(extenlist)
@@ -388,3 +389,76 @@
 # result = data*(4/3)
 
 # print(result)
+
+
+# number1 = 23
+
+# number2 = 17
+
+# if number1>number2:
+#     result = number1-number2
+#     result *= 2
+#     print(result)
+# else:
+#     result = number1-number2
+#     print(abs(result))
+
+
+# var = [2, 5, 4, 8]
+
+# newlee = [x*2 for x in var]
+# print(newlee)
+
+# num = 5
+# result = 1
+# for i in range(1, num+1):
+#     for x in range(i):
+#         x = x*x
+#         result += x
+
+    
+
+# print(result)
+
+
+# finding factors of a number
+
+# number = 8
+
+# number_divided = number//2
+
+# all_factors = []
+
+# for i in range(1, number_divided+1):
+#     if number_divided%i == 0:
+#         all_factors.append(i)
+
+
+# all_factors.append(number)
+# print(all_factors)
+
+
+import time
+
+# # Start the timer
+# start_time = time.time()
+
+# # Your code here
+# number = 8
+# all_factors = []
+
+# for i in range(1, number//2 + 1):
+#     if number % i == 0:
+#         all_factors.append(i)
+
+# all_factors.append(number)
+
+# print(all_factors)
+
+# # End the timer
+# end_time = time.time()
+
+# # Calculate the time taken
+# total_time = end_time - start_time
+
+# print(f"Time taken: {total_time} seconds")
