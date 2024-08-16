@@ -462,3 +462,59 @@ import time
 # total_time = end_time - start_time
 
 # print(f"Time taken: {total_time} seconds")
+# Write a Python program to calculate the difference between a given number and 17.
+#  If the number is greater than 17, return twice the absolute difference.
+
+
+# mynum = int(input("Enter a number: "))
+
+
+# print(f"Number {mynum} is in between 100 and 1000" if
+#       mynum >=100 and mynum <=1000 else 
+#       f"Given Number {mynum} is in between 1000 and 2000" 
+#       if mynum >= 1000 and mynum < 2000 else "Wrong Input"
+#       )
+
+# Ternary operator in python
+# print("I am Pro Programmer" if 2==2 else "I am Just Noob")
+
+# Write a Python program to calculate the sum of three given numbers.
+# If the values are equal, return three times their sum.
+
+
+# numlist = []
+# x = 1
+# while x<4:
+#     numlist.append(int(input("Enter a Number: ")))
+#     x += 1
+    
+# sum = 0
+
+# for i in range(len(numlist)):
+#     sum += numlist[i]
+
+# all_same = True
+# for i in range(1, len(numlist)):
+#     if numlist[i] != numlist[0]:
+#         all_same = False
+#         break
+
+# if all_same:
+#     sum *= 3
+# else:
+#     print("\nAll entered Numbers aren't same")
+    
+
+# print("Sum is: ", sum)
+# print("Entered Numers: ", numlist)
+
+
+
+# mystr = input("Enter string: ")
+
+
+# if mystr.startswith('is'):
+#     print(mystr)
+# else:
+#     mystr = 'is ' + mystr
+#     print(mystr)
