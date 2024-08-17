@@ -518,3 +518,32 @@ import time
 # else:
 #     mystr = 'is ' + mystr
 #     print(mystr)
+
+
+# Write a  Python program that returns a string that is n (non-negative integer) copies of a given string.
+# import time
+
+# startf = time.time()
+
+# print("InshaALlah, i will successfully start Python Django development role job from next(September) month.")
+# print("InshaALlah, i will successfully start Python Django development role job from next(September) month.")
+# print("InshaALlah, i will successfully start Python Django development role job from next(September) month.")
+# print("InshaALlah, i will successfully start Python Django development role job from next(September) month.")
+
+# endf = time.time()
+
+# print("Total time taken: ", endf-startf)
+
+
+# mystri = input("Enter string sentence: ")
+
+# howmany = int(input("Enter a number: "))
+# starts = time.time()
+# for i in range(howmany):
+#     print(mystri)
+    
+# ends = time.time()
+
+
+# print("Total time taken: ", ends-starts)
+    
