@@ -546,4 +546,46 @@ import time
 
 
 # print("Total time taken: ", ends-starts)
+
+
+# Write a Python program that determines whether a given number (accepted from the user) is even or odd,
+# and prints an appropriate message to the user.
+
+
+# number = int(input("Enter a number: "))
+
+# print('Given number is Even' if number%2==0 else "Number is Odd bro")
+
+#  Write a  Python program to count the number 4 in a given list.
+
+# mylist = [3, 8, 4, 9, 4, 7, 4]
+
+
+# number_count = 0
+# number = 4
+
+
+# for i in range(len(mylist)):
+#     if mylist[i]==number:
+#         number_count += 1
+        
+
+# print(number_count)
+
+
+# Write a Python program to get n (non-negative integer) copies of the first 2 characters of a given string.
+# Return n copies of the whole string if the length is less than 2.
+
+
+# my_data = [1, 4, 2, 5, 4, 7, 4]
+
+# numb = 4
+# times = 0
+
+# for i in my_data:
+#     if numb == i:
+#         times += 1
     
+
+# print(times)
+
